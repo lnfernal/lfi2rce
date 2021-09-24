@@ -25,3 +25,5 @@ apache2 access.log case
 ![alt text](https://github.com/0bfxGH0ST/LFI2RCE/blob/main/screenshots/screenshot002.png)  
 Valid for Windows too if enable --windows option (you should tune folders)
 ![alt text](https://github.com/0bfxGH0ST/LFI2RCE/blob/main/screenshots/screenshot003.png)  
+
+Note: Windows payload was tested with Windows Defender disabled for testing purposes, if you want bypass antivirus you must to learn how to obfuscate code.
