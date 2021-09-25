@@ -2,8 +2,10 @@
 
 Local File Inclusion to Remote Code Execution  
 Automated proof of concept tool to poison ssh and apache2 log files  
-ssh (/var/log/auth.log)  
-apache2 (/var/log/apache2/access.log)  
+linux ssh (/var/log/auth.log)  
+linux apache2 (/var/log/apache2/access.log)  
+windows xampp/apache (C:/xampp/apache/logs/access.log)
+use --windows option for windows hosts
 
 # Change listener parameters in source code that are hardcoded
 <pre>
