@@ -20,7 +20,7 @@ attacker_port="4444"      # CHANGE ME BY ATTACKER PORT  #
 * Services log files must be readable,writeable and executable by every user in the system.  
 
 # Screenshots
-![alt text](https://github.com/0bfxGH0ST/LFI2RCE/blob/main/screenshots/screenshot000.png)  
+![alt text](https://github.com/0bfxGH0ST/LFI2RCE/blob/main/screenshots/screenshot0000.png)  
 ssh auth.log case  
 ![alt text](https://github.com/0bfxGH0ST/LFI2RCE/blob/main/screenshots/screenshot001.png)  
 apache2 access.log case  
