@@ -39,7 +39,7 @@ function HELP(){
 	printf -- "Description:\n"
 	printf -- "lfi2rce will try spawn a shell by poisoning SSH /var/log/auth.log and APACHE2 /var/log/apache2/access.log log files\n\n"
 	printf -- "Options:\n"
-	printf -- "\n--windows      set lfi2rce for windows hosts will try poison C:/xampp/apache/log/access.log\n\n"
+	printf -- "\n--windows      set lfi2rce for windows hosts will try poison C:/xampp/apache/logs/access.log\n\n"
 	printf -- "Usage bash lfi2rce <url>\n"
 	printf -- "Example bash lfi2rce http://ghost.server/index.php?page= --windows\n\n"
 	exit
